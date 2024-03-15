@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import yamamoriLogo from '/yamamori_rice.jpg'
 import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	return (
+		<div className="max-w-[720px] max-md:max-w-full m-auto pt-16">
+			<div>
+				<img src={yamamoriLogo} className="m-auto w-36 h-auto rounded-full" alt="Avator" />
+			</div>
+			<h1 className="text-2xl font-bold text-gray-600 text-center mt-3">Yuta Yamamori</h1>
+			<p className="text-center">
+				はじめまして、
+			</p>
+			<div className="flex justify-center gap-6 my-4">
+				<a className="text-gray-600 hover:text-current" href="https://x.com/9yamamo9" target="_blank">
+					<span className="i-ri-twitter-x-fill w-8 h-8" />
+				</a>
+				<a className="text-gray-600 hover:text-current" href="https://www.linkedin.com/in/yuta-yamamori-786883175/" target="_blank">
+					<span className="i-ri-linkedin-fill w-8 h-8" />
+				</a>
+				<a className="text-gray-600 hover:text-current" href="https://github.com/9yamamo9" target="_blank">
+					<span className="i-ri-github-fill w-8 h-8" />
+				</a>
+			</div>
+		</div>
+	)
 }
 
 export default App

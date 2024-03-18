@@ -1,13 +1,14 @@
 import yamamoriLogo from './assets/yamamori_rice.jpg'
 import Footer from './components/Footer.tsx'
 import './index.css'
+import PortfolioCard from './components/PortfolioCard.tsx'
 
 function App() {
 
 	return (
 		<div className="flex flex-col h-[100vh]">
 			<main className="max-w-[720px] max-md:max-w-full m-auto">
-				<img src={yamamoriLogo} className="m-auto w-36 h-auto rounded-full" alt="Avator" />
+				<img src={yamamoriLogo} className="m-auto w-36 h-auto rounded-full mt-3" alt="Avator" />
 				<h1 className="text-2xl font-bold text-gray-600 text-center mt-3">Yuta Yamamori</h1>
 				<p className="text-center">
 					はじめまして、
@@ -25,6 +26,9 @@ function App() {
 					<a className="text-gray-600 hover:text-current" href="https://github.com/9yamamo9" target="_blank">
 						<span className="i-ri-github-fill w-8 h-8" />
 					</a>
+				</div>
+				<div className="flex flex-col mb-3">
+					<PortfolioCard />
 				</div>
 			</main>
 			<Footer />

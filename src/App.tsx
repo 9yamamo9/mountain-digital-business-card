@@ -1,4 +1,4 @@
-import yamamoriLogo from '/yamamori_rice.jpg'
+import yamamoriLogo from './assets/yamamori_rice.jpg'
 import Footer from './components/Footer.tsx'
 import './index.css'
 

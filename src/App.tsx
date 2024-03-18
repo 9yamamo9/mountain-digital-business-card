@@ -10,8 +10,9 @@ function App() {
 			<main className="max-w-[720px] max-md:max-w-full m-auto">
 				<img src={yamamoriLogo} className="m-auto w-36 h-auto rounded-full mt-3" alt="Avator" />
 				<h1 className="text-2xl font-bold text-gray-600 text-center mt-3">Yuta Yamamori</h1>
-				<p className="text-center">
-					はじめまして、
+				<p className="text-center text-gray-600 p-2">
+					アクセスしていただきありがとうございます。僕はSoftware Engineerとして5年以上働いていました。
+					趣味は、音楽・映画鑑賞とオリジナルTシャツを作ったりしています。
 				</p>
 				<div className="flex justify-center gap-6 my-4">
 					<a className="text-gray-600 hover:text-current" href="https://x.com/9yamamo9" target="_blank">

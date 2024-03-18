@@ -2,6 +2,7 @@ import yamamoriLogo from './assets/yamamori_rice.jpg'
 import Footer from './components/Footer.tsx'
 import './index.css'
 import PortfolioCard from './components/PortfolioCard.tsx'
+import mountainForestLog from './assets/mountain-forest-logo.png'
 
 function App() {
 
@@ -28,8 +29,17 @@ function App() {
 						<span className="i-ri-github-fill w-8 h-8" />
 					</a>
 				</div>
-				<div className="flex flex-col mb-3">
-					<PortfolioCard />
+				<div className="flex flex-col mb-3 gap-3">
+					<PortfolioCard
+						title="Mountain Forest"
+						description="This is my blog site about technologies and life. If you're interested in it, please access it."
+						imageSrc={mountainForestLog}
+						url="https://mountain-forest-blog.pages.dev/" />
+					<PortfolioCard
+						title="About Me"
+						description="This page is my introduction for my career and technical stack."
+						imageSrc={mountainForestLog}
+						url="https://mountain-forest-blog.pages.dev/about/" />
 				</div>
 			</main>
 			<Footer />

@@ -3,6 +3,7 @@ import Footer from './components/Footer.tsx'
 import './index.css'
 import PortfolioCard from './components/PortfolioCard.tsx'
 import mountainForestLog from './assets/mountain-forest-logo.png'
+import qrCode from './assets/business-card-url-qr-code.png'
 
 function App() {
 
@@ -40,6 +41,10 @@ function App() {
 						description="This page is my introduction for my career and technical stack."
 						imageSrc={mountainForestLog}
 						url="https://mountain-forest-blog.pages.dev/about/" />
+				</div>
+				<div className="flex flex-col items-center m-4">
+					<img className="w-36 h-36" src={qrCode} />
+					<h2>For Access</h2>
 				</div>
 			</main>
 			<Footer />

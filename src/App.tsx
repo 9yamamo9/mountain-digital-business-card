@@ -3,14 +3,13 @@ import Footer from './components/Footer.tsx'
 import './index.css'
 import PortfolioCard from './components/PortfolioCard.tsx'
 import mountainForestLog from './assets/mountain-forest-logo.png'
-import qrCode from './assets/business-card-url-qr-code.png'
 import Header from './components/Header.tsx'
 
 function App() {
 
 	return (
 		<div className="flex flex-col h-[100vh]">
-			<Header />
+			<Header visibleQrCodeButton={true}/>
 			<main className="max-w-[720px] max-md:max-w-full m-auto">
 				<img src={yamamoriLogo} className="m-auto w-36 h-auto rounded-full mt-3" alt="Avator" />
 				<h1 className="text-2xl font-bold text-gray-600 text-center mt-3">Yuta Yamamori</h1>
@@ -43,10 +42,6 @@ function App() {
 						description="This page is my introduction for my career and technical stack."
 						imageSrc={mountainForestLog}
 						url="https://mountain-forest-blog.pages.dev/about/" />
-				</div>
-				<div className="flex flex-col items-center m-4">
-					<img className="w-36 h-36" src={qrCode} />
-					<h2>For Access</h2>
 				</div>
 			</main>
 			<Footer />

@@ -4,11 +4,13 @@ import './index.css'
 import PortfolioCard from './components/PortfolioCard.tsx'
 import mountainForestLog from './assets/mountain-forest-logo.png'
 import qrCode from './assets/business-card-url-qr-code.png'
+import Header from './components/Header.tsx'
 
 function App() {
 
 	return (
 		<div className="flex flex-col h-[100vh]">
+			<Header />
 			<main className="max-w-[720px] max-md:max-w-full m-auto">
 				<img src={yamamoriLogo} className="m-auto w-36 h-auto rounded-full mt-3" alt="Avator" />
 				<h1 className="text-2xl font-bold text-gray-600 text-center mt-3">Yuta Yamamori</h1>

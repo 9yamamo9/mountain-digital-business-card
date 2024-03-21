@@ -5,7 +5,7 @@ import Footer from './components/Footer.tsx'
 const QrCode = () => {
 	return (
 		<div className="flex flex-col h-[100vh]">
-			<Header visibleQrCodeButton={false}/>
+			<Header visibleQrCodeButton={false} enableCorrectReturn={true}/>
 			<main className="max-w-[720px] max-md:max-w-full m-auto">
 				<div className="flex flex-col items-center m-4">
 					<img className="w-42 h-42" src={qrCode} />

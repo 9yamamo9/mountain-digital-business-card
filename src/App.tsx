@@ -22,7 +22,8 @@ function App() {
 					<h1 className="text-2xl font-bold text-gray-600 text-center mt-3">Yuta Yamamori</h1>
 					<p className="text-center text-gray-600 p-2">
 						アクセスしていただきありがとうございます。僕はSoftware Engineerとして5年以上働いていました。
-						趣味は、音楽・映画鑑賞とオリジナルTシャツを作ったりしています。
+						現在は、次のやりたいことを見つけるために、興味のあることを日々学んでいます。
+						趣味は、音楽・映画鑑賞とオリジナルTシャツなどを作ったりしています。
 					</p>
 					<div className="flex justify-center gap-6 my-4">
 						<a className="text-gray-600 hover:text-current" href="https://x.com/9yamamo9" target="_blank">
